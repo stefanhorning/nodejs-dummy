@@ -1,0 +1,6 @@
+{
+  "watch": ["*.*"],
+  "exec": "node ./node_modules/ts-node/dist/bin ./nodejs-dummy.ts",
+  "verbose": true,
+  "ext": "ts tsx"
+}

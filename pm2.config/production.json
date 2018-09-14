@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"        : "pigeon-production",
+    "script"      : "node_modules/ts-node/dist/bin.js",
+    "args"        : "pigeon.ts",
+    "node_args"   : "--max_old_space_size=4096",
+    "cwd"         : ".",
+    "env": { "NODE_ENV": "production" }
+  }]
+}

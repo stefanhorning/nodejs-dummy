@@ -1,0 +1,13 @@
+{
+  "compileOnSave": false,
+  "strictNullChecks": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": false,
+    "types": [
+      "node"
+    ],
+    "outDir": "dist"
+  }
+}
