@@ -9,8 +9,8 @@
     "start": "NODE_ENV=development nodemon",
     "start:staging": "node_modules/.bin/pm2 start pm2.config/staging.json",
     "start:production": "node_modules/.bin/pm2 start pm2.config/production.json",
-    "stop:staging": "pm2 stop pigeon-staging",
-    "stop:production": "pm2 stop pigeon-production",
+    "stop:staging": "pm2 stop nodejs-dummy-staging",
+    "stop:production": "pm2 stop nodejs-dummy-production",
     "start:debug": "DEBUG=express:* NODE_ENV=development nodemon"
   },
   "main": "node_dummy.ts",
